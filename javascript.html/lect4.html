@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // jo top pe declare hai vo global aur jo loop ke andar declare hai vo block
+        // scope
+        /*let b=10
+        {
+            var a=100
+            let b=1
+            const c=2
+        }
+        console.log(a)
+        console.log(b)
+        console.log(c)*/
+
+        // only accessible through var and not by let and const
+        function sum(){
+            var a=2
+            //let a=6
+            //const b=2
+        }
+        console.log(a)
+        sum()
+        //console.log(a)
+        //console.log(b)
+        
+
+
+
+    </script>
+</body>
+</html>
